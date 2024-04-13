@@ -1,0 +1,702 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1713037210251397, "dur":24455, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713037210275856, "dur":120, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713037210276009, "dur":77, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713037210276091, "dur":3089, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713037210279180, "dur":2629074, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713037212908386, "dur":1656, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1713037210276049, "dur":3137, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210279187, "dur":6403, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210285593, "dur":844, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker /Users/omaressa/BoxShootingGame/Library/Bee/artifacts/unitylinker_ber2.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1713037210286437, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210287276, "dur":545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"IL2CPP_CodeGen /Users/omaressa/BoxShootingGame/Library/Bee/artifacts/il2cpp_conv_twe6.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1713037210287822, "dur":524, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210290700, "dur":127, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.AnimationModule_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1713037210290688, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/shsy4zr9jiw4.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210290922, "dur":339, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.PhysicsModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210291265, "dur":70, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210290898, "dur":438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/f0o5iekr0rkj.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210291351, "dur":953, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__13.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210292308, "dur":58, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210291349, "dur":1017, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ux1jpjx0taqw.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210292480, "dur":1076, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__5.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210292477, "dur":1129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pxmae4toyepn.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210293690, "dur":1413, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__64.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210295107, "dur":56, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210293686, "dur":1478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/tex76p67zk0a.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210295236, "dur":534, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Assembly-CSharp-firstpass.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210295777, "dur":59, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210295208, "dur":628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/x1qpaxgylcdi.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210295940, "dur":1195, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__36.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210297147, "dur":84, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210295937, "dur":1294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/e33ycbuoyhqs.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210297342, "dur":1389, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/__Generated.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210298735, "dur":429, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210297322, "dur":1842, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/i4sqr1ds4as1.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210299361, "dur":440, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TilemapModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210299805, "dur":370, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210299309, "dur":866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/aj6ugwu2bmug.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210300222, "dur":143, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.HierarchyCoreModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210300373, "dur":111, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210300208, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/coa3k2iqubtg.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210300484, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210300594, "dur":1274, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__6.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210301871, "dur":109, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210300573, "dur":1407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/7nm3io0tu09r.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210302028, "dur":956, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210302011, "dur":1024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hrn13earqe8x.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210303203, "dur":78, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppRgctxTable.c" }}
+,{ "pid":12345, "tid":1, "ts":1713037210303176, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/b0u1of4tohtq.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210303377, "dur":176, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Assembly-CSharp-firstpass__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210303610, "dur":327, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210303346, "dur":592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6seabyetjl4n.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210304077, "dur":750, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.GridModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210304027, "dur":849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/kksohzs7o1ye.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210304888, "dur":742, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__15.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210305635, "dur":89, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210304885, "dur":839, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/glpop8rw00iv.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210305731, "dur":1348, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__66.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210307082, "dur":65, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210305729, "dur":1418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/f2kc7e136at9.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210307173, "dur":392, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__49.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210307574, "dur":69, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210307164, "dur":479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/s8ua1wsya1t5.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210307664, "dur":223, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__10.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210307950, "dur":111, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210307661, "dur":400, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/nuar9ko7jwle.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210308174, "dur":552, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__48.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210308094, "dur":680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/7srmlne17cim.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210308809, "dur":935, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__63.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210309765, "dur":64, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210308805, "dur":1024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8ytjrgsaxwor.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210309865, "dur":413, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__12.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210310320, "dur":56, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210309848, "dur":528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/e3opwoe959fj.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210310499, "dur":526, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.CoreModule__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210311029, "dur":54, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210310496, "dur":587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qa4m2p4v94rc.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210311157, "dur":912, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__17.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210311098, "dur":1019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/le7kbatowv3l.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210312266, "dur":469, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__45.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210312739, "dur":187, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210312263, "dur":663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/0p0t5o57xyd4.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210313124, "dur":806, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__39.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210313934, "dur":66, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210313063, "dur":937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/l6urs92h8vua.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210314068, "dur":306, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UI__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210314381, "dur":321, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210314050, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/lhke3ouktato.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210314784, "dur":149, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppGenericClassTable.c" }}
+,{ "pid":12345, "tid":1, "ts":1713037210314732, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/0qae45w0ism5.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210315019, "dur":94, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1713037210314988, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/x37ihyirjgdm.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210315347, "dur":162, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__52.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210315512, "dur":282, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210315249, "dur":545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/0o9jydmvqp8g.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210315879, "dur":52, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.InputForUIModule_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1713037210315875, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/turs5fvkmlgd.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210316069, "dur":1332, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__16.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210317405, "dur":848, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210316040, "dur":2213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rcco3sm4nrhc.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210318321, "dur":588, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__46.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210318278, "dur":679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/l53hlyj50mpn.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210319090, "dur":167, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.AudioModule_CodeGen.c" }}
+,{ "pid":12345, "tid":1, "ts":1713037210319070, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/i8z9xnlniw1q.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210319285, "dur":576, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__11.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1713037210319865, "dur":322, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210319282, "dur":905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/tnl1gf0b3l4z.o" }}
+,{ "pid":12345, "tid":1, "ts":1713037210320217, "dur":19220, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1713037210339471, "dur":2515367, "ph":"X", "name": "7z",  "args": { "detail":"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked" }}
+,{ "pid":12345, "tid":1, "ts":1713037212854884, "dur":53268, "ph":"X", "name": "GzipMarker",  "args": { "detail":"Build/WebGL/BoxShooter/Build/BoxShooter.wasm.gz" }}
+,{ "pid":12345, "tid":2, "ts":1713037210276050, "dur":3140, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210279193, "dur":218, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210279411, "dur":677, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210280088, "dur":684, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210280772, "dur":646, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210281418, "dur":594, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210282012, "dur":641, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210282653, "dur":2952, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210285606, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210285663, "dur":1629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210287330, "dur":3373, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210290741, "dur":1938, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__32.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210290703, "dur":2025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6rspcx4wk14u.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210292947, "dur":496, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppGenericAdjustorThunkTable.c" }}
+,{ "pid":12345, "tid":2, "ts":1713037210292944, "dur":547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/gyytowrouqr0.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210293560, "dur":1718, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__14.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210293538, "dur":1794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ebgsvbkvmhz3.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210295442, "dur":856, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__44.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210296302, "dur":96, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210295429, "dur":970, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/zhgdl9o9twwo.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210296590, "dur":961, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__3.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210297555, "dur":86, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210296587, "dur":1055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/39y5dfzsrowo.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210297655, "dur":1031, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System.Core.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210298690, "dur":54, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210297652, "dur":1092, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pmnhx4k41nej.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210298744, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210298835, "dur":388, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__3.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210299235, "dur":599, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210298820, "dur":1014, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/0kva3pr0km59.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210299988, "dur":60, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210299905, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bb1ocfagqcqt.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210300161, "dur":135, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__9.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210300303, "dur":119, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210300136, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hghr9bhfbh5o.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210300467, "dur":1187, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__35.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210300446, "dur":1260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dvjisvdquf9c.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210301721, "dur":266, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.IMGUIModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210302049, "dur":108, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210301718, "dur":439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bdvix5dyfonr.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210302170, "dur":829, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.CoreModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210303002, "dur":175, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210302167, "dur":1010, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/phfhxlhsz4vx.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210303215, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dgpqeka1jkcp.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210303354, "dur":133, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__18.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210303584, "dur":300, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210303332, "dur":552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/x7i0ybfzt34e.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210303884, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210304065, "dur":1462, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__9.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210305533, "dur":52, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210304053, "dur":1532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/73zitcdujc5o.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210305623, "dur":813, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__19.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210306439, "dur":50, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210305604, "dur":885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yf3gjrvxx5lu.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210306683, "dur":975, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__38.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210307665, "dur":304, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210306680, "dur":1289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/0qr3c0ok57ir.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210308080, "dur":1131, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__16.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210308058, "dur":1201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/k6m4qucqstm6.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210309385, "dur":694, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__6.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210310112, "dur":86, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210309351, "dur":847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/008pde409x06.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210310223, "dur":1295, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.InputLegacyModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210310213, "dur":1354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rwqm9pups37d.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210311672, "dur":926, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextCoreFontEngineModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210312608, "dur":72, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210311634, "dur":1046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/j67kryall296.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210312820, "dur":158, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210312710, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fe3ctjahzr7g.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210313086, "dur":357, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210313459, "dur":52, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210313011, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/g035x60ljq1w.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210313736, "dur":529, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__3.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210314335, "dur":705, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210313700, "dur":1340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4ogjidmi1byq.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210315199, "dur":393, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__11.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210315598, "dur":128, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210315180, "dur":546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ylxqn5if7mkv.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210315758, "dur":303, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextRenderingModule_CodeGen.c" }}
+,{ "pid":12345, "tid":2, "ts":1713037210315755, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vvapxq33z8hc.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210316170, "dur":850, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.ParticleSystemModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210316167, "dur":906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/n7j0bd2aa5s0.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210317080, "dur":513, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__14.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210317624, "dur":345, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210317077, "dur":908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/5ooj33r8g1od.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210317986, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210318089, "dur":1083, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UI.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210318054, "dur":1168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qf9rjp0hf1bu.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210319240, "dur":761, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__5.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1713037210320005, "dur":353, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1713037210319237, "dur":1121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/w7f9wqyb24rr.o" }}
+,{ "pid":12345, "tid":2, "ts":1713037210320361, "dur":2587850, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210276052, "dur":3163, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210279231, "dur":638, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210279870, "dur":676, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210280546, "dur":691, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210281237, "dur":589, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210281826, "dur":657, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210282483, "dur":451, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210282934, "dur":2659, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210285654, "dur":1643, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210287297, "dur":3398, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210290710, "dur":497, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppGenericMethodPointerTable.c" }}
+,{ "pid":12345, "tid":3, "ts":1713037210290696, "dur":526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/056zk7t7me1m.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210291282, "dur":1492, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__8.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210291265, "dur":1557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/w0d3t22h8st5.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210292839, "dur":854, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__1.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210292836, "dur":907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/i1seiormul5r.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210293771, "dur":1044, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__7.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210294864, "dur":76, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210293768, "dur":1173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/iv3dxft78ukq.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210294988, "dur":1270, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextCoreTextEngineModule__1.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210294985, "dur":1323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/uuphwtybkfxj.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210296422, "dur":1039, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__57.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210296365, "dur":1148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/tfohe1pk7t5x.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210297529, "dur":1083, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextRenderingModule.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210297526, "dur":1138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/nogphast39y4.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210298687, "dur":131, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.IMGUIModule_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1713037210298822, "dur":145, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210298674, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/f99f8v7j8uyj.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210298967, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210299070, "dur":1020, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__7.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210300270, "dur":211, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210299038, "dur":1443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/lgcetniycmcq.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210300618, "dur":253, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__15.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210300537, "dur":425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/q4r7id65jp0w.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210301000, "dur":1033, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextCoreTextEngineModule__3.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210302037, "dur":68, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210300989, "dur":1116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/0pwtrcr6prkm.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210302256, "dur":939, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__1.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210303238, "dur":198, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210302252, "dur":1184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ex7520w4dwcb.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210303481, "dur":1089, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.PropertiesModule.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210303463, "dur":1155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1f65flbb2t4y.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210304680, "dur":929, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__13.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210305628, "dur":92, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210304677, "dur":1043, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/d3vbbw3wifio.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210305777, "dur":980, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__13.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210305754, "dur":1053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fb95g4u79bxy.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210306885, "dur":519, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.Physics2DModule_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1713037210306874, "dur":562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1cilujss1klp.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210307444, "dur":249, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppGenericMethodDefinitions.c" }}
+,{ "pid":12345, "tid":3, "ts":1713037210307441, "dur":278, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/z5dlpw9kjxzs.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210307765, "dur":274, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__7.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210308046, "dur":216, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210307749, "dur":513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vstm9mmj4qcq.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210308344, "dur":1243, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__2.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210309598, "dur":205, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210308296, "dur":1507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3gw2xx5jx9gb.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210309811, "dur":372, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppInvokerTable.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210310186, "dur":234, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210309808, "dur":612, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/7atataln5b3p.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210310481, "dur":1373, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System.Configuration.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210310470, "dur":1433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yckr9hdxd8zw.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210311955, "dur":198, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro_CodeGen.c" }}
+,{ "pid":12345, "tid":3, "ts":1713037210311951, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/13tsea6mzyu5.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210312180, "dur":607, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210312793, "dur":409, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210312177, "dur":1025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dbxfh29it7fq.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210313219, "dur":961, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__33.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210314228, "dur":186, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210313207, "dur":1207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/7zc6wclvo3la.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210314508, "dur":612, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__1.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210315123, "dur":91, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210314496, "dur":718, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hmb1dq4wky3p.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210315288, "dur":943, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__3.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210315246, "dur":1034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/aks4w13fvezs.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210316324, "dur":1232, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__27.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210317576, "dur":201, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210316285, "dur":1493, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/sg73jxi5y02g.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210317826, "dur":138, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__4.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210317968, "dur":259, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210317794, "dur":433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/l0yyiz5xnaht.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210318329, "dur":142, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__55.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210318475, "dur":108, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210318277, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/7r0cecvo03cz.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210318662, "dur":1178, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__12.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1713037210319865, "dur":358, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1713037210318659, "dur":1564, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/j10e3excabwe.o" }}
+,{ "pid":12345, "tid":3, "ts":1713037210320254, "dur":2588016, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210276065, "dur":3161, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210279229, "dur":607, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210279836, "dur":672, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210280508, "dur":687, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210281195, "dur":611, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210281806, "dur":657, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210282463, "dur":460, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210282923, "dur":2669, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210285658, "dur":1634, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210287292, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ICallRegistrationGenerator /Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/UnityICallRegistration.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210287596, "dur":3107, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210290744, "dur":1113, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__18.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210291861, "dur":62, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210290703, "dur":1220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/s96aslwvp2oj.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210291938, "dur":1374, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__30.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210291932, "dur":1429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/0wldhec2ephs.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210293399, "dur":1348, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__17.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210293396, "dur":1402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/7t3mcciymed0.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210294807, "dur":572, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__8.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210294805, "dur":625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/mowud3ywgot5.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210295476, "dur":1251, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__29.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210295458, "dur":1321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/e4u8jmd15qvf.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210296827, "dur":255, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System.Core_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1713037210296824, "dur":274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xxsr2eq3mguz.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210297107, "dur":443, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__4.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210297554, "dur":86, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210297105, "dur":535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/p4j7xm0f4z99.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210297724, "dur":85, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppTypeDefinitions.c" }}
+,{ "pid":12345, "tid":4, "ts":1713037210297720, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/96ezt4cnpops.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210297837, "dur":617, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__37.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210297834, "dur":668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/zi7msk8l151b.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210298543, "dur":332, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextCoreTextEngineModule__2.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210298879, "dur":217, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210298525, "dur":571, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fat5b3c9m382.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210299156, "dur":582, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__10.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210299742, "dur":167, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210299121, "dur":788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6z4ivxu380d6.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210300035, "dur":76, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppGenericMethodTable.c" }}
+,{ "pid":12345, "tid":4, "ts":1713037210300140, "dur":57, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Applications/Unity/Hub/Editor/2023.2.7f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc" }}
+,{ "pid":12345, "tid":4, "ts":1713037210299987, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9io2bxt45o1e.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210300530, "dur":654, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1713037210300449, "dur":752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/k8tzeebxq2xp.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210301213, "dur":447, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Mono.Security_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1713037210301210, "dur":466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/u939br3h9v7h.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210301685, "dur":869, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCCalculateFieldValues.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210302564, "dur":62, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210301682, "dur":944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/cjtqckst0z9z.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210302640, "dur":580, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__13.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210303250, "dur":323, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210302638, "dur":935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/k9kvnudbeddu.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210303607, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/n2nwp513y2fx.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210303755, "dur":74, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/__Generated_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1713037210303738, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qneqf081odxv.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210303928, "dur":186, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__14.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210304121, "dur":65, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210303892, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fd574sbywy1f.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210304261, "dur":703, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__7.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210304253, "dur":762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/w7a0dl98dees.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210305031, "dur":572, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System.Xml_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1713037210305606, "dur":73, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210305028, "dur":652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/z9yhjaoh0bi9.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210305857, "dur":580, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__10.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210306441, "dur":51, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210305853, "dur":639, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/sf1kwzjdzjnk.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210306532, "dur":850, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__59.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210307386, "dur":203, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210306529, "dur":1060, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/f3bmeqkgekyw.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210307686, "dur":1573, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System__2.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210309294, "dur":78, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210307663, "dur":1709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/m8k7cbpv0q3u.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210309498, "dur":306, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__41.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210309808, "dur":158, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210309426, "dur":540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/sepk5aggkis6.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210309966, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210310100, "dur":813, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.CoreModule__2.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210310097, "dur":864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bq7aizitct3v.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210310970, "dur":1414, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__2.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210312388, "dur":60, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210310967, "dur":1481, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/p4oghspisqn9.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210312456, "dur":235, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine_CodeGen.c" }}
+,{ "pid":12345, "tid":4, "ts":1713037210312453, "dur":339, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ax6r7esb1nsh.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210312866, "dur":1027, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__4.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210312809, "dur":1136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/op2ttodquc87.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210313980, "dur":511, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__2.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210314546, "dur":151, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210313976, "dur":722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/iuvhy5kvo0k5.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210314746, "dur":668, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__3.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210315418, "dur":421, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210314722, "dur":1117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/txhxxfv7zjwo.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210315855, "dur":771, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__6.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210315852, "dur":823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hnjxc0c94s3a.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210316693, "dur":620, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__54.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210316689, "dur":675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/mcxoy2grxf1f.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210317454, "dur":324, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__16.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210317797, "dur":218, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210317400, "dur":615, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/10sc5h6t3oue.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210318167, "dur":106, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210318062, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vddnfuhrijns.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210318313, "dur":1508, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__20.cpp" }}
+,{ "pid":12345, "tid":4, "ts":1713037210319825, "dur":271, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210318297, "dur":1799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/k8tlgjuy6376.o" }}
+,{ "pid":12345, "tid":4, "ts":1713037210320129, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data" }}
+,{ "pid":12345, "tid":4, "ts":1713037210320230, "dur":53, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1713037210320551, "dur":563912, "ph":"X", "name": "7z",  "args": { "detail":"Library/Bee/artifacts/WebGL/webgl.data.unmarked" }}
+,{ "pid":12345, "tid":4, "ts":1713037210884747, "dur":52420, "ph":"X", "name": "GzipMarker",  "args": { "detail":"Build/WebGL/BoxShooter/Build/BoxShooter.data.gz" }}
+,{ "pid":12345, "tid":4, "ts":1713037210937185, "dur":1971021, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713037210276066, "dur":3187, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713037210279255, "dur":716, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713037210279971, "dur":678, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713037210280649, "dur":661, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713037210281310, "dur":586, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713037210281896, "dur":668, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713037210282564, "dur":388, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713037210282952, "dur":2642, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1713037210285595, "dur":53650, "ph":"X", "name": "ComputeLeafInputSignature",  "args": { "detail":"Lib_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/il2cpp.a" }}
+,{ "pid":12345, "tid":5, "ts":1713037210339253, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Lib_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/GameAssembly.a" }}
+,{ "pid":12345, "tid":5, "ts":1713037210339361, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)" }}
+,{ "pid":12345, "tid":5, "ts":1713037210339464, "dur":1001279, "ph":"X", "name": "Merging",  "args": { "detail":"JavaScript Code Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js" }}
+,{ "pid":12345, "tid":5, "ts":1713037211340766, "dur":1567511, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210276079, "dur":3178, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210279259, "dur":693, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210279952, "dur":660, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210280612, "dur":674, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210281286, "dur":586, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210281873, "dur":657, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210282531, "dur":427, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210282958, "dur":2649, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210285607, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210285667, "dur":1629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210287296, "dur":3397, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210290723, "dur":1661, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210292387, "dur":60, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210290693, "dur":1754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/l00qsv8wwomf.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210292602, "dur":1361, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__17.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210293975, "dur":103, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210292600, "dur":1478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/mgw0krkr6c6x.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210294170, "dur":1353, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210295527, "dur":119, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210294167, "dur":1480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ow4zwc9joo6t.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210295662, "dur":590, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.SpriteShapeModule_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1713037210295659, "dur":610, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/os96ylin0r2a.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210296390, "dur":1734, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__4.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210298127, "dur":159, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210296331, "dur":1955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vzvscbidy2ac.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210298310, "dur":360, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210298673, "dur":68, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210298305, "dur":436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/79tsxq0btt3p.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210298863, "dur":98, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__6.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210298965, "dur":839, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210298757, "dur":1047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/adqytd8l1206.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210299932, "dur":244, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppMetadataUsage.c" }}
+,{ "pid":12345, "tid":6, "ts":1713037210299902, "dur":330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dxnj34z8lg2g.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210300423, "dur":241, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.HierarchyCoreModule_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1713037210300367, "dur":416, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/89tg1csvw62t.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210300905, "dur":1012, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__5.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210301947, "dur":95, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210300853, "dur":1189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qc4ni2ge81qp.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210302049, "dur":1220, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__28.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210303382, "dur":101, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210302047, "dur":1436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dwasz6w21oe0.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210303562, "dur":371, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__56.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210303938, "dur":188, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210303534, "dur":593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/s730tl9l3roi.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210304302, "dur":973, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__40.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210304234, "dur":1090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/7ylwp11ihugn.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210305371, "dur":100, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UI_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1713037210305368, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2lv03rl5dfbp.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210305499, "dur":691, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__24.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210305497, "dur":741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ldgb4y9bpmyy.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210306316, "dur":951, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.SharedInternalsModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210306312, "dur":1005, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pc7unthtlht2.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210307370, "dur":256, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__2.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210307630, "dur":188, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210307368, "dur":451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/spxgd0e9vhf9.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210307905, "dur":1050, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__14.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210308959, "dur":54, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210307882, "dur":1131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/0qcuwd94c08h.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210309109, "dur":461, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.AnimationModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210309574, "dur":70, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210309086, "dur":558, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8wpgvru7qtv0.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210309679, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/p5l87ygei33w.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210309849, "dur":724, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__22.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210309834, "dur":787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/zps639egiw5z.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210310641, "dur":663, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__23.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210311308, "dur":51, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210310639, "dur":720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/k5vujjtdlkhj.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210311515, "dur":776, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__21.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210311512, "dur":828, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/5nx9vs8v9rjq.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210312406, "dur":367, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TilemapModule_CodeGen.c" }}
+,{ "pid":12345, "tid":6, "ts":1713037210312403, "dur":392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2l8h310hvg96.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210312850, "dur":436, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__50.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210313307, "dur":137, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210312819, "dur":625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/e1lfyorzjzfi.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210313645, "dur":748, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UI__3.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210314520, "dur":364, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210313641, "dur":1244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/747i3dpg00ln.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210314937, "dur":408, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__5.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210315350, "dur":100, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210314920, "dur":530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/zso9syn25vjr.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210315493, "dur":674, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__47.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210315474, "dur":745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/mdoy5d034o62.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210316311, "dur":705, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__21.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210316276, "dur":792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/eapio00if8tg.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210317085, "dur":402, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__65.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210317493, "dur":604, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210317082, "dur":1015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/eu0vmzk528bu.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210318150, "dur":126, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__53.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210318336, "dur":66, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210318116, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/l4c8dn0stdk0.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210318485, "dur":1476, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__17.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1713037210319965, "dur":340, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1713037210318470, "dur":1835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/csfcj201qftv.o" }}
+,{ "pid":12345, "tid":6, "ts":1713037210320315, "dur":2587928, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210276081, "dur":3180, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210279262, "dur":715, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210279977, "dur":681, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210280658, "dur":663, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210281321, "dur":585, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210281906, "dur":668, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210282574, "dur":3037, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210285637, "dur":1654, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210287294, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"ClassRegistrationGenerator /Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/UnityClassRegistration.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210287619, "dur":3086, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210290757, "dur":618, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__8.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210290705, "dur":720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xfvgy0p7hgv7.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210291565, "dur":1476, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__20.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210291562, "dur":1528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/d2413kkkb6c1.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210293132, "dur":1176, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__12.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210293129, "dur":1230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/tph343g2p88g.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210294425, "dur":231, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppGenericInstDefinitions.c" }}
+,{ "pid":12345, "tid":7, "ts":1713037210294669, "dur":59, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210294422, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ic2wranjnzyi.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210294738, "dur":771, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__31.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210295513, "dur":160, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210294735, "dur":938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/lcp1wnqzhdtb.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210295688, "dur":101, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Assembly-CSharp_CodeGen.c" }}
+,{ "pid":12345, "tid":7, "ts":1713037210295685, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/92uzuv6v61z4.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210296038, "dur":1089, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppInteropDataTable.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210297131, "dur":58, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210296035, "dur":1154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6rbrdmmdngdc.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210297219, "dur":1401, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__2.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210297216, "dur":1457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/f5rmngd3hytq.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210298734, "dur":594, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__16.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210299450, "dur":261, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210298720, "dur":992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/me0yw230jq1g.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210299764, "dur":129, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__62.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210299896, "dur":182, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210299740, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/7q9260bctu7b.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210300155, "dur":405, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__61.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210300564, "dur":219, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210300134, "dur":649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/mb6errxeq6vs.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210300915, "dur":766, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__60.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210301685, "dur":51, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210300862, "dur":875, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/l3ly6bhgm4ed.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210301888, "dur":1337, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__4.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210303231, "dur":253, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210301876, "dur":1608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/edlldp942777.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210303643, "dur":176, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__10.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210303831, "dur":122, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210303579, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xdda3p2g3k3f.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210304055, "dur":981, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__15.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210305039, "dur":51, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210304014, "dur":1076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/l6ficnn2fok1.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210305125, "dur":453, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.Physics2DModule.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210305582, "dur":156, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210305114, "dur":624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hgo0plo671oa.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210305914, "dur":1542, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__25.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210307584, "dur":86, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210305911, "dur":1759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6sjzj8n9raai.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210307794, "dur":162, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppUnresolvedIndirectCallStubs.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210307960, "dur":101, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210307725, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/n4rl94ezw6we.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210308143, "dur":700, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Assembly-CSharp.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210308103, "dur":788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/d9y1ucacvghl.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210308992, "dur":879, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__8.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210309876, "dur":63, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210308964, "dur":975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3a71cp74bjw9.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210310041, "dur":1264, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__26.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210311309, "dur":50, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210309999, "dur":1360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/703f4n47vcrx.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210311369, "dur":1190, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210312562, "dur":119, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210311367, "dur":1314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3ghsx46ed9j1.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210312776, "dur":349, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UI__2.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210312738, "dur":439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/mp4un4ajxca4.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210313190, "dur":165, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System.Configuration_CodeGen.c" }}
+,{ "pid":12345, "tid":7, "ts":1713037210313187, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ms9ncq5va8qg.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210313396, "dur":486, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.PropertiesModule_CodeGen.c" }}
+,{ "pid":12345, "tid":7, "ts":1713037210313380, "dur":518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/5ni8f2bte3b3.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210313907, "dur":364, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIModule.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210314308, "dur":394, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210313904, "dur":799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/aitwhpu4nr94.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210314823, "dur":461, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__51.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210315357, "dur":213, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210314766, "dur":804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/f95vi47xn1wx.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210315612, "dur":308, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System.Xml.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210315923, "dur":62, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210315595, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/f1j9o6amzwqx.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210315996, "dur":1343, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCCalculateTypeValues.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210317342, "dur":50, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210315993, "dur":1399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/uk7gabqkk2se.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210317486, "dur":401, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppReversePInvokeWrapperTable.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210318054, "dur":335, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210317414, "dur":975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ggtzuleocpa1.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210318503, "dur":1272, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCCalculateFieldValues1.cpp" }}
+,{ "pid":12345, "tid":7, "ts":1713037210318472, "dur":1352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rfp2m1fa7jyk.o" }}
+,{ "pid":12345, "tid":7, "ts":1713037210319909, "dur":139, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210320050, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles /Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Metadata/global-metadata.dat" }}
+,{ "pid":12345, "tid":7, "ts":1713037210320218, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1713037210320293, "dur":2587906, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210276094, "dur":3170, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210279264, "dur":700, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210279964, "dur":659, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210280623, "dur":674, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210281297, "dur":588, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210281885, "dur":668, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210282553, "dur":407, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210282960, "dur":2650, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210285616, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210285674, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1713037210286096, "dur":1199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210287295, "dur":3397, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210290717, "dur":1512, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__43.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210292233, "dur":68, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210290693, "dur":1608, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/e2cp5zacr8k5.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210292445, "dur":644, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__11.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210292361, "dur":792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rf86a780bppp.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210293227, "dur":1261, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__9.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210293210, "dur":1327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ivy4da44k46q.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210294655, "dur":616, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__34.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210294652, "dur":672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/sfgucmzsrrxt.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210295376, "dur":265, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210295373, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qvzd4sgmuz7z.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210295703, "dur":866, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__42.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210295700, "dur":919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/tm90pqweok9l.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210296742, "dur":1029, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__9.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210296738, "dur":1082, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/oqaqsyl2e77s.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210297890, "dur":448, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.IMGUIModule__1.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210297874, "dur":527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4eaffie1e64s.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210298525, "dur":277, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCCFieldValuesTable.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210298866, "dur":96, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210298522, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pqvgh6y3ruci.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210299009, "dur":422, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__19.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210299609, "dur":376, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210298977, "dur":1008, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/r9dx6slj27qo.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210300137, "dur":336, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.AudioModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210300478, "dur":165, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210300095, "dur":548, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ucm5jfs9ymsw.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210300700, "dur":357, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextCoreFontEngineModule_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1713037210300675, "dur":404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vs06h948eezc.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210301184, "dur":1112, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__5.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210301180, "dur":1169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/m8if3emwrcy8.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210302356, "dur":732, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__15.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210303096, "dur":675, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210302354, "dur":1417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/zqjgblysp5an.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210303827, "dur":1211, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Mono.Security.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210305042, "dur":50, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210303809, "dur":1283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ahzlmm0rdw2c.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210305110, "dur":634, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210305756, "dur":151, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210305108, "dur":799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/iyf6ms9cm6fd.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210306003, "dur":363, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.GridModule_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1713037210305968, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wu1uyh7pxvzo.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210306391, "dur":231, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1713037210306388, "dur":248, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/i3pczvqg2qas.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210306713, "dur":401, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIModule_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1713037210307126, "dur":99, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210306687, "dur":539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6j5n95pne7yb.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210307234, "dur":490, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210307799, "dur":346, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210307231, "dur":914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/iux08mjzcv5h.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210308145, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210308304, "dur":1166, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__58.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210309566, "dur":68, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210308289, "dur":1345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/evr5ta4haihh.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210309745, "dur":460, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Assembly-CSharp-firstpass_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1713037210309647, "dur":596, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/lxixflwioja2.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210310316, "dur":693, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__12.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210311015, "dur":57, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210310275, "dur":797, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/snsnvmpzfr64.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210311087, "dur":1509, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextCoreTextEngineModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210312624, "dur":58, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Applications/Unity/Hub/Editor/2023.2.7f1/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/emscripten/emcc" }}
+,{ "pid":12345, "tid":8, "ts":1713037210312713, "dur":277, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210311084, "dur":1906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/tbe9vacq7uhe.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210313034, "dur":267, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.CoreModule_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1713037210312999, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/d97ay2d5764b.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210313443, "dur":842, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCodeRegistration.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210314356, "dur":471, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210313379, "dur":1449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/d2a9j659y3k0.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210314881, "dur":381, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.SpriteShapeModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210315352, "dur":66, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210314848, "dur":570, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/s6h3du29m8kk.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210315548, "dur":910, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__18.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210315518, "dur":988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6ta9qj7lzjf5.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210316524, "dur":813, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__6.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210317341, "dur":50, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210316521, "dur":870, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bs7bybvbbq28.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210317400, "dur":316, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCCTypeValuesTable.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210317719, "dur":126, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210317397, "dur":448, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/5qc997xu8q9c.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210317953, "dur":256, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.InputForUIModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210318213, "dur":301, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210317892, "dur":622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9p3qj9oobjub.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210318667, "dur":779, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__7.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210319456, "dur":77, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210318653, "dur":880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/s3pryxerxolb.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210319542, "dur":404, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/Users/omaressa/BoxShootingGame/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__11.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1713037210319956, "dur":349, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1713037210319539, "dur":767, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/89dfpu24mkxx.o" }}
+,{ "pid":12345, "tid":8, "ts":1713037210320319, "dur":2587946, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1713037212911140, "dur":409, "ph":"X", "name": "ProfilerWriteOutput" }
+,
